@@ -1,0 +1,10 @@
+Features:
+-- List all the students
+-- List all the assignments
+-- List all the grades
+-- Adding a student
+    -- If id already exists it displays an error, the user is not added, but still displays 'User added conformation' as well.
+-- Adding an assignment
+-- Delete a student
+-- Delete a assignment
+-- Update a student
