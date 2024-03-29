@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="verification.AppTest" time="0.202" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="verification.TestAddAssignment" time="0.05" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -52,11 +52,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAddStudentStringIdNumericName" classname="verification.AppTest" time="0.136"/>
-  <testcase name="shouldAnswerWithTrue" classname="verification.AppTest" time="0"/>
-  <testcase name="testAddStudentEmptyFields" classname="verification.AppTest" time="0.004"/>
-  <testcase name="testAddStudentNullFields" classname="verification.AppTest" time="0.007"/>
-  <testcase name="testAddStudentInvalidFields" classname="verification.AppTest" time="0.008"/>
-  <testcase name="testAddStudent2" classname="verification.AppTest" time="0"/>
-  <testcase name="testAddStudentValidFields" classname="verification.AppTest" time="0.015"/>
+  <testcase name="testAddAssignmentStringIdEmptyDescription" classname="verification.TestAddAssignment" time="0"/>
+  <testcase name="testAddAssignmentEmptyFields" classname="verification.TestAddAssignment" time="0"/>
+  <testcase name="testAddAssignmentInvalidFields" classname="verification.TestAddAssignment" time="0.002"/>
+  <testcase name="testAddAssignmentInvalidDeadline" classname="verification.TestAddAssignment" time="0.009"/>
+  <testcase name="testAddAssignmentStringIdNumericDescription" classname="verification.TestAddAssignment" time="0.01"/>
+  <testcase name="testAddAssignmentValidFields" classname="verification.TestAddAssignment" time="0.012"/>
+  <testcase name="testAddAssignmentInvalidStartline" classname="verification.TestAddAssignment" time="0.007"/>
+  <testcase name="testAddAssignmentNullFields" classname="verification.TestAddAssignment" time="0.005"/>
 </testsuite>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: verification.AppTest
+Test set: verification.TestAddAssignment
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 s - in verification.AppTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 s - in verification.TestAddAssignment
