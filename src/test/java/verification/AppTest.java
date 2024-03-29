@@ -15,6 +15,8 @@ import validation.*;
 /**
  * Unit test for simple App.
  */
+
+// TODO: Separate test cases for each method
 public class AppTest 
 {
     @Test
