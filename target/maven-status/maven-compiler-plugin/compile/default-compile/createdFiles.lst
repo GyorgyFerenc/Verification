@@ -5,14 +5,14 @@ repository/TemaXMLRepository.class
 repository/CRUDRepository.class
 Main.class
 domain/Student.class
-domain/Nota.class
 repository/AbstractXMLRepository.class
+domain/Nota.class
 repository/NotaRepository.class
 repository/AbstractFileRepository.class
 console/UI.class
 validation/NotaValidator.class
-domain/Tema.class
 validation/Validator.class
+domain/Tema.class
 repository/TemaRepository.class
 domain/Pair.class
 service/Service.class
