@@ -20,11 +20,6 @@ import validation.*;
 public class AppTest 
 {
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
-    }
-
-    @Test
     public void testAddStudentValidFields(){
         Validator<Student> studentValidator = new StudentValidator();
         Validator<Tema> temaValidator = new TemaValidator();
@@ -126,10 +121,4 @@ public class AppTest
 			assertTrue(true);
 		}
 	}
-
-
-    @Test
-    public void testAddStudent2(){
-        assertTrue(true);
-    }
 }
