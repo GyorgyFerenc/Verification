@@ -1,4 +1,5 @@
 package verification;
+// public int saveTema(String id, String descriere, int deadline, int startline) {
 
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
@@ -72,7 +73,7 @@ public class TestAddAssignment {
 	}
 
 	@Test
-	public void testAddAssignmentEmptyFields() {
+	public void testAddAssignmentEmptyFields() {=
 		Validator<Student> studentValidator = new StudentValidator();
 		Validator<Tema> temaValidator = new TemaValidator();
 		Validator<Nota> notaValidator = new NotaValidator();
