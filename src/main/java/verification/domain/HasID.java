@@ -1,6 +1,7 @@
-package domain;
+package verification.domain;
 
 public interface HasID<ID> {
-    ID getID();
-    void setID(ID id);
+	ID getID();
+
+	void setID(ID id);
 }

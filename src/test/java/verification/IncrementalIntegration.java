@@ -1,12 +1,13 @@
 package verification;
 
 import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
-import console.*;
-import domain.*;
-import repository.*;
-import service.*;
-import validation.*;
+
+import verification.domain.*;
+import verification.repository.*;
+import verification.service.Service;
+import verification.validation.*;
 
 public class IncrementalIntegration {
 	@Test
@@ -19,9 +20,8 @@ public class IncrementalIntegration {
 		TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "test_projects.xml");
 		NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "test_grades.xml");
 
-		
 		Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
-		
+
 		fileRepository1.delete("1");
 		fileRepository1.delete("2");
 		assertTrue(service.saveStudent("1", "test Student 1", 933) == 1);
@@ -38,7 +38,6 @@ public class IncrementalIntegration {
 		TemaXMLRepository fileRepository2 = new TemaXMLRepository(temaValidator, "test_projects.xml");
 		NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "test_grades.xml");
 
-		
 		Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
 
 		fileRepository1.delete("1");
@@ -63,7 +62,6 @@ public class IncrementalIntegration {
 		NotaXMLRepository fileRepository3 = new NotaXMLRepository(notaValidator, "test_grades.xml");
 
 		Service service = new Service(fileRepository1, fileRepository2, fileRepository3);
-
 
 		fileRepository1.delete("1");
 		fileRepository1.delete("2");

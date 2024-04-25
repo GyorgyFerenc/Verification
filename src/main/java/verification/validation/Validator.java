@@ -1,5 +1,5 @@
-package validation;
+package verification.validation;
 
 public interface Validator<E> {
-    void validate(E entity) throws ValidationException;
+	void validate(E entity) throws ValidationException;
 }

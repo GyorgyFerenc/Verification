@@ -1,8 +1,7 @@
-package validation;
+package verification.validation;
 
-public class ValidationException extends RuntimeException{
-    public ValidationException(String exception) {
-        super(exception);
-    }
+public class ValidationException extends RuntimeException {
+	public ValidationException(String exception) {
+		super(exception);
+	}
 }
-

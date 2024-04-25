@@ -1,11 +1,10 @@
-package repository;
+package verification.repository;
 
-import domain.Tema;
-import validation.*;
+import verification.domain.Tema;
+import verification.validation.Validator;
 
 public class TemaRepository extends AbstractCRUDRepository<String, Tema> {
-    public TemaRepository(Validator<Tema> validator) {
-        super(validator);
-    }
+	public TemaRepository(Validator<Tema> validator) {
+		super(validator);
+	}
 }
-

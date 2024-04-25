@@ -5,11 +5,6 @@
         <Deadline>10</Deadline>
         <Startline>2</Startline>
     </tema>
-    <tema ID="2">
-        <Descriere>test Assignment 2</Descriere>
-        <Deadline>13</Deadline>
-        <Startline>4</Startline>
-    </tema>
     <tema ID="3">
         <Descriere>gui</Descriere>
         <Deadline>9</Deadline>
